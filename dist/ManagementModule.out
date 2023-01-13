@@ -1,0 +1,368 @@
+Alert Name:	WebPortal Frontend - Stall Count
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	1
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal Frontend - Stall Count
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	1
+Danger Action List:	None
+Danger Target Value:	1
+Caution Min Num Per Period:	1
+Caution Alert Period:	2
+Danger Min Num Per Period:	1
+Danger Alert Period:	2
+
+
+Alert Name:	WebPortal - JSP - Stall Count
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - JSP - Stall Count
+Alert Combine Operator:	1
+Alert Compare Operator:	3
+Caution Target Value:	1
+Danger Action List:	None
+Danger Target Value:	1
+Caution Min Num Per Period:	1
+Caution Alert Period:	2
+Danger Min Num Per Period:	1
+Danger Alert Period:	2
+
+
+Alert Name:	WebPortal - Servlets - Stall Count
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - Servlets - Stall Count
+Alert Combine Operator:	1
+Alert Compare Operator:	3
+Caution Target Value:	3
+Danger Action List:	None
+Danger Target Value:	5
+Caution Min Num Per Period:	1
+Caution Alert Period:	2
+Danger Min Num Per Period:	1
+Danger Alert Period:	2
+
+
+Alert Name:	WebPortal - Servlets - Average Response Time (ms)
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	1
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - Servlets - Average Response Time (ms)
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	200
+Danger Action List:	None
+Danger Target Value:	300
+Caution Min Num Per Period:	1
+Caution Alert Period:	2
+Danger Min Num Per Period:	1
+Danger Alert Period:	2
+
+
+Alert Name:	Auth Service - Errors Per Interval
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	Auth Service - Errors Per Interval
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	3
+Danger Action List:	None
+Danger Target Value:	5
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	WebPortal - JSP - Average Response Time (ms)
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - JSP - Average Response Time (ms)
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	1000
+Danger Action List:	None
+Danger Target Value:	2000
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	WebPortal - WS Client - Errors Per Interval
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - WS Client - Errors Per Interval
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	0
+Danger Action List:	None
+Danger Target Value:	0
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	WebPortal - Servlets - Errors Per Interval
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - Servlets - Errors Per Interval
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	0
+Danger Action List:	None
+Danger Target Value:	0
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	WebPortal - JSP - Errors Per Interval
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - JSP - Errors Per Interval
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	3
+Danger Action List:	None
+Danger Target Value:	5
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	Responses Per Interval #2
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	1
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	Responses Per Interval #2
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	240
+Danger Action List:	None
+Danger Target Value:	270
+Caution Min Num Per Period:	1
+Caution Alert Period:	1
+Danger Min Num Per Period:	1
+Danger Alert Period:	1
+
+
+Alert Name:	WebPortal Frontends - Errors Per Interval
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal Frontends - Errors Per Interval
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	1
+Danger Action List:	None
+Danger Target Value:	1
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	WebPortal Frontend - Average Response Time (ms)
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal Frontend - Average Response Time (ms)
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	2000
+Danger Action List:	None
+Danger Target Value:	3000
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	Auth Service - Average Response Time (ms)
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	1
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	Auth Service - Average Response Time (ms)
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	700
+Danger Action List:	None
+Danger Target Value:	1000
+Caution Min Num Per Period:	1
+Caution Alert Period:	2
+Danger Min Num Per Period:	1
+Danger Alert Period:	2
+
+
+Alert Name:	WebPortal - WS Client - Average Response Time (ms)
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	2
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	WebPortal - WS Client - Average Response Time (ms)
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	2000
+Danger Action List:	None
+Danger Target Value:	3000
+Caution Min Num Per Period:	1
+Caution Alert Period:	4
+Danger Min Num Per Period:	1
+Danger Alert Period:	4
+
+
+Alert Name:	Average Response Time (ms)
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	1
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	Average Response Time (ms)
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	750
+Danger Action List:	None
+Danger Target Value:	1000
+Caution Min Num Per Period:	1
+Caution Alert Period:	1
+Danger Min Num Per Period:	1
+Danger Alert Period:	1
+
+
+Alert Name:	Responses Per Interval
+IsActive:	true
+Alert Description:	None
+PeriodInSeconds:	15
+Metric Level Notification:	true
+Alert Trigger Mode:	1
+Caution Action Delay:	0
+Danger Action Delay:	0
+Caution Action List:	None
+Danger Action List:	None
+Management Module Name:	TixChange-Demo
+Construct Name:	Responses Per Interval
+Alert Combine Operator:	1
+Alert Compare Operator:	2
+Caution Target Value:	115
+Danger Action List:	None
+Danger Target Value:	130
+Caution Min Num Per Period:	1
+Caution Alert Period:	1
+Danger Min Num Per Period:	1
+Danger Alert Period:	1
+
+
