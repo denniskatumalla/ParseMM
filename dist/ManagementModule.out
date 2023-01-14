@@ -1,368 +1,965 @@
-Alert Name:	WebPortal Frontend - Stall Count
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	1
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal Frontend - Stall Count
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	1
-Danger Action List:	None
-Danger Target Value:	1
-Caution Min Num Per Period:	1
-Caution Alert Period:	2
-Danger Min Num Per Period:	1
-Danger Alert Period:	2
+                  Alert Name: AMOS MQ QDepth OUTRCH.INTAKE.AMOS _CONTACTCENTER_IVR_OUTREACH_
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
+
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Caution Action MM Name: APM - SOA-MQ                  
+         Caution Action Name: Send Alert to Spectrum - MQ   
+      Caution Action MM Name: APM                           
+         Caution Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - SOA-MQ                  
+          Danger Action Name: Send Alert to Spectrum - MQ   
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.INTAKE.AMOS
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 5000                          
+         Danger Target Value: 5000                          
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 5040                          
+         Danger Alert Period: 5040                          
+                  Alert Name: Synthetic STATUS AMOS SOAP Outreach Content Service CMOD
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP OutreachContent CMOD
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: AMOS MQ QDepth OUTRCH.INTAKE.AMOS
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
+
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.INTAKE.AMOS
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 2500                          
+         Danger Target Value: 5000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth AMOS.*.BACKOUT 
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth AMOS.*BACKOUT  
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 30                            
+        Caution Alert Period: 30                            
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth OUTRCH.*BACKOUT _CONTACTCENTER_IVR_OUTREACH_
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
+
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Caution Action MM Name: APM - SOA-MQ                  
+         Caution Action Name: Send Alert to Spectrum - MQ   
+      Caution Action MM Name: APM                           
+         Caution Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - SOA-MQ                  
+          Danger Action Name: Send Alert to Spectrum - MQ   
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.*BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 10000                         
+         Danger Target Value: 10000                         
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 5040                          
+         Danger Alert Period: 5040                          
+                  Alert Name: AMOS MQ OIC OUTRCH.INTAKE.PRINT _CONTACTCENTER_IVR_OUTREACH_
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
 
 
-Alert Name:	WebPortal - JSP - Stall Count
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - JSP - Stall Count
-Alert Combine Operator:	1
-Alert Compare Operator:	3
-Caution Target Value:	1
-Danger Action List:	None
-Danger Target Value:	1
-Caution Min Num Per Period:	1
-Caution Alert Period:	2
-Danger Min Num Per Period:	1
-Danger Alert Period:	2
+Open Input Count is NOT equal to 1
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Caution Action MM Name: APM - SOA-MQ                  
+         Caution Action Name: Send Alert to Spectrum - MQ   
+      Caution Action MM Name: APM                           
+         Caution Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - SOA-MQ                  
+          Danger Action Name: Send Alert to Spectrum - MQ   
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ OUTRCH.INTAKE.PRINT OIC
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 1                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 10                            
+        Caution Alert Period: 10                            
+   Danger Min Num Per Period: 5040                          
+         Danger Alert Period: 5040                          
+                  Alert Name: AMOS JVM Status WS-AMOS-01    
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS JVM Status WS-AMOS-01    
+      Alert Combine Operator: 2                             
+      Alert Compare Operator: 4                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 2                             
+        Caution Alert Period: 2                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: AMOS MQ QDepths on AQM6M04P   
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth% AQM6M04P      
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 50                            
+         Danger Target Value: 75                            
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: Synthetic STATUS AMOS SOAP RightFaxHandler Service _CONTACTCENTER_IVR_OUTREACH_
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
 
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Send Alert to Spectrum - AMOS 
+      Caution Action MM Name: APM - Synthetic Monitoring    
+         Caution Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Send Alert to Spectrum - AMOS 
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP RightFaxHandler
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 16                            
+        Caution Alert Period: 16                            
+   Danger Min Num Per Period: 10080                         
+         Danger Alert Period: 10080                         
+                  Alert Name: Synthetic STATUS AMOS SOAP OOR Service
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP OOR Service
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: Synthetic STATUS AMOS SOAP Outreach Content Service P8
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 3600                          
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP OutreachContent P8
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: AMOS MQ QDepth AMOS.EXCEPTION 
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 3600                          
+         Danger Action Delay: 14400                         
+      Caution Action MM Name: APM                           
+         Caution Action Name: Email - APM Wily Admin        
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth AMOS.EXCEPTION 
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 10000                         
+         Danger Target Value: 10000                         
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 10080                         
+         Danger Alert Period: 10080                         
+                  Alert Name: AMOS Memory - % of Max Used   
+           Alert Description:                               
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS Memory - % of Max Used   
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 78                            
+         Danger Target Value: 90                            
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: AMOS Errors                   
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS Errors                   
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 25                            
+         Danger Target Value: 25                            
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: AMOS MQ QDepth OUTRCH.SERVICE.*.BACKOUT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 14400                         
+         Danger Action Delay: 14400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.SERVICE.*.BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 300                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth OUTRCH.RSLT.GMC _IS CCMP SUPPORT_
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email GMC App Support (IS CCMP SUPPORT)
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email GMC App Support (IS CCMP SUPPORT)
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.RSLT.GMC
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth OUTBND.*BACKOUT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTBND.*.BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 25                            
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS Memory - Time Spent in GC during last 15 minutes
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS Memory - Time Spent in GC during last 15 minutes
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 50                            
+         Danger Target Value: 50                            
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 15                            
+                  Alert Name: AMOS MQ QDepth OUTRCH.INTAKE.*.BACKOUT --
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.INTAKE.*BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 1000                          
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 10080                         
+         Danger Alert Period: 10080                         
+                  Alert Name: AMOS MQ QDepth OUTRCH.OPRTNTY.CREATED  _IS CCMP SUPPORT_
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email GMC App Support (IS CCMP SUPPORT)
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email GMC App Support (IS CCMP SUPPORT)
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.OPRTNTY.CREATED
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: Synthetic STATUS AMOS WSDL CTIDoNotCallList Service
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS WSDL CTIDoNotCallList Service
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 6                             
+         Danger Alert Period: 6                             
+                  Alert Name: Synthetic STATUS AMOS WSDL Connector Service
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS WSDL Connector Service
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 6                             
+         Danger Alert Period: 6                             
+                  Alert Name: AMOS JVM Status WS-AMOS-02    
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS JVM Status WS-AMOS-02    
+      Alert Combine Operator: 2                             
+      Alert Compare Operator: 4                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 2                             
+        Caution Alert Period: 2                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: APM ECCA - AMOS               
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Alert Combine Operator:                               
+      Alert Compare Operator:                               
+        Caution Target Value:                               
+         Danger Target Value:                               
+  Caution Min Num Per Period:                               
+        Caution Alert Period:                               
+   Danger Min Num Per Period:                               
+         Danger Alert Period:                               
+                  Alert Name: AMOS JVM Status WS-CCI-01     
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS JVM Status WS-CCI-01     
+      Alert Combine Operator: 2                             
+      Alert Compare Operator: 4                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 2                             
+        Caution Alert Period: 2                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: Synthetic STATUS AMOS SOAP Services
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP    
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 16                            
+        Caution Alert Period: 16                            
+   Danger Min Num Per Period: 10080                         
+         Danger Alert Period: 10080                         
+                  Alert Name: Synthetic STATUS AMOS WSDL Fax Service on ASM
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS WSDL RightFaxHandler Service on ASM
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 6                             
+         Danger Alert Period: 6                             
+                  Alert Name: AMOS MQ OIC OUTRCH.INTAKE.PRINT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ OUTRCH.INTAKE.PRINT OIC
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 1                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: AMOS MQ QDepth OUTRCH.*.BACKOUT _IS CCMP SUPPORT_
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email GMC App Support (IS CCMP SUPPORT)
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Send Alert to Spectrum - AMOS 
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email GMC App Support (IS CCMP SUPPORT)
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Send Alert to Spectrum - AMOS 
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.*.BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth AMOS.ETEVENT.INTAKE _CONTACTCENTER_IVR_OUTREACH_
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
 
-Alert Name:	WebPortal - Servlets - Stall Count
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - Servlets - Stall Count
-Alert Combine Operator:	1
-Alert Compare Operator:	3
-Caution Target Value:	3
-Danger Action List:	None
-Danger Target Value:	5
-Caution Min Num Per Period:	1
-Caution Alert Period:	2
-Danger Min Num Per Period:	1
-Danger Alert Period:	2
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Caution Action MM Name: APM - SOA-MQ                  
+         Caution Action Name: Send Alert to Spectrum - MQ   
+      Caution Action MM Name: APM                           
+         Caution Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - SOA-MQ                  
+          Danger Action Name: Send Alert to Spectrum - MQ   
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth AMOS.ETEVENT.INTAKE
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100000                        
+         Danger Target Value: 100000                        
+  Caution Min Num Per Period: 10                            
+        Caution Alert Period: 10                            
+   Danger Min Num Per Period: 5040                          
+         Danger Alert Period: 5040                          
+                  Alert Name: AMOS MQ QDepth AMOS.ETEVENT.INTAKE
+           Alert Description: ECC Action:
+Open IM Level 3 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Major (Caution)
+Open IM Level 2 and assign it to CONTACTCENTER_OUTREACH (AMOS) for Critical (Danger)
 
-
-Alert Name:	WebPortal - Servlets - Average Response Time (ms)
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	1
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - Servlets - Average Response Time (ms)
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	200
-Danger Action List:	None
-Danger Target Value:	300
-Caution Min Num Per Period:	1
-Caution Alert Period:	2
-Danger Min Num Per Period:	1
-Danger Alert Period:	2
-
-
-Alert Name:	Auth Service - Errors Per Interval
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	Auth Service - Errors Per Interval
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	3
-Danger Action List:	None
-Danger Target Value:	5
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	WebPortal - JSP - Average Response Time (ms)
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - JSP - Average Response Time (ms)
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	1000
-Danger Action List:	None
-Danger Target Value:	2000
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	WebPortal - WS Client - Errors Per Interval
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - WS Client - Errors Per Interval
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	0
-Danger Action List:	None
-Danger Target Value:	0
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	WebPortal - Servlets - Errors Per Interval
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - Servlets - Errors Per Interval
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	0
-Danger Action List:	None
-Danger Target Value:	0
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	WebPortal - JSP - Errors Per Interval
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - JSP - Errors Per Interval
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	3
-Danger Action List:	None
-Danger Target Value:	5
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	Responses Per Interval #2
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	1
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	Responses Per Interval #2
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	240
-Danger Action List:	None
-Danger Target Value:	270
-Caution Min Num Per Period:	1
-Caution Alert Period:	1
-Danger Min Num Per Period:	1
-Danger Alert Period:	1
-
-
-Alert Name:	WebPortal Frontends - Errors Per Interval
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal Frontends - Errors Per Interval
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	1
-Danger Action List:	None
-Danger Target Value:	1
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	WebPortal Frontend - Average Response Time (ms)
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal Frontend - Average Response Time (ms)
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	2000
-Danger Action List:	None
-Danger Target Value:	3000
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	Auth Service - Average Response Time (ms)
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	1
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	Auth Service - Average Response Time (ms)
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	700
-Danger Action List:	None
-Danger Target Value:	1000
-Caution Min Num Per Period:	1
-Caution Alert Period:	2
-Danger Min Num Per Period:	1
-Danger Alert Period:	2
-
-
-Alert Name:	WebPortal - WS Client - Average Response Time (ms)
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	2
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	WebPortal - WS Client - Average Response Time (ms)
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	2000
-Danger Action List:	None
-Danger Target Value:	3000
-Caution Min Num Per Period:	1
-Caution Alert Period:	4
-Danger Min Num Per Period:	1
-Danger Alert Period:	4
-
-
-Alert Name:	Average Response Time (ms)
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	1
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	Average Response Time (ms)
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	750
-Danger Action List:	None
-Danger Target Value:	1000
-Caution Min Num Per Period:	1
-Caution Alert Period:	1
-Danger Min Num Per Period:	1
-Danger Alert Period:	1
-
-
-Alert Name:	Responses Per Interval
-IsActive:	true
-Alert Description:	None
-PeriodInSeconds:	15
-Metric Level Notification:	true
-Alert Trigger Mode:	1
-Caution Action Delay:	0
-Danger Action Delay:	0
-Caution Action List:	None
-Danger Action List:	None
-Management Module Name:	TixChange-Demo
-Metric Grouping:	Responses Per Interval
-Alert Combine Operator:	1
-Alert Compare Operator:	2
-Caution Target Value:	115
-Danger Action List:	None
-Danger Target Value:	130
-Caution Min Num Per Period:	1
-Caution Alert Period:	1
-Danger Min Num Per Period:	1
-Danger Alert Period:	1
-
-
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth AMOS.ETEVENT.INTAKE
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100000                        
+         Danger Target Value: 100000                        
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 30                            
+         Danger Alert Period: 30                            
+                  Alert Name: Synthetic RESPONSE AMOS SOAP Test Services
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS SOAP Test Services Response
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 4000                          
+         Danger Target Value: 4000                          
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 4                             
+         Danger Alert Period: 4                             
+                  Alert Name: AMOS MQ QDepth AMOS.TCS.FILTERED.BACKOUT --
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth AMOS.TCS.FILTERED.BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 8000                          
+         Danger Target Value: 8000                          
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 240                           
+         Danger Alert Period: 240                           
+                  Alert Name: AMOS JVM Status               
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS JVM Status               
+      Alert Combine Operator: 2                             
+      Alert Compare Operator: 4                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 2                             
+        Caution Alert Period: 2                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: AMOS MQ QDepth OUTRCH.*.BACKOUT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.*BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth OUTRCH.INTAKE.*.BACKOUT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 1                             
+        Caution Action Delay: 86400                         
+         Danger Action Delay: 86400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.INTAKE.*BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 100                           
+         Danger Target Value: 1000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS MQ QDepth AMOS.TCS.FILTERED.BACKOUT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 3600                          
+         Danger Action Delay: 18000                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth AMOS.TCS.FILTERED.BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 8000                          
+         Danger Target Value: 8000                          
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 300                           
+         Danger Alert Period: 300                           
+                  Alert Name: AMOS MQ QDepth OUTRCH.UPDATE.*.BACKOUT
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 14400                         
+         Danger Action Delay: 14400                         
+      Caution Action MM Name: APM - ECCA - AMOS             
+         Caution Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS OUTBOUND           
+       Danger Action MM Name: APM                           
+          Danger Action Name: Email - APM Wily Admin        
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS MQ QDepth OUTRCH.UPDATE.*.BACKOUT
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 200                           
+         Danger Target Value: 799                           
+  Caution Min Num Per Period: 3                             
+        Caution Alert Period: 3                             
+   Danger Min Num Per Period: 3                             
+         Danger Alert Period: 3                             
+                  Alert Name: AMOS JVM Status WS-CCI-02     
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS JVM Status WS-CCI-02     
+      Alert Combine Operator: 2                             
+      Alert Compare Operator: 4                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 2                             
+        Caution Alert Period: 2                             
+   Danger Min Num Per Period: 10                            
+         Danger Alert Period: 10                            
+                  Alert Name: AMOS CPU Utilization of the Process
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: true                          
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: AMOS CPU                      
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 8                             
+         Danger Target Value: 15                            
+  Caution Min Num Per Period: 45                            
+        Caution Alert Period: 60                            
+   Danger Min Num Per Period: 45                            
+         Danger Alert Period: 60                            
+                  Alert Name: Synthetic STATUS AMOS SOAP Outreach Campaign Service
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP Outreach Campaign
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: Synthetic STATUS AMOS SOAP Outreach Survey Service
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP Outreach Survey
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: AMOS MQ QDepth Status         
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 2                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Alert Combine Operator:                               
+      Alert Compare Operator:                               
+        Caution Target Value:                               
+         Danger Target Value:                               
+  Caution Min Num Per Period:                               
+        Caution Alert Period:                               
+   Danger Min Num Per Period:                               
+         Danger Alert Period:                               
+                  Alert Name: Synthetic RESPONSE AMOS SOAP Services
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic RESPONSE AMOS SOAP  
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 4000                          
+         Danger Target Value: 4000                          
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 4                             
+         Danger Alert Period: 4                             
+                  Alert Name: Synthetic STATUS AMOS WSDL Outbound Dialer _ECD_AMOS_
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Send Alert to Spectrum - AMOS 
+       Danger Action MM Name: APM - Synthetic Monitoring    
+          Danger Action Name: Email - APM Synthetic Admin   
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS WSDL Outbound Dialer
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 1                             
+         Danger Target Value: 1                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 1                             
+         Danger Alert Period: 1                             
+                  Alert Name: Synthetic STATUS AMOS SOAP RightFaxHandler Service
+           Alert Description: None                          
+             PeriodInSeconds:                               
+   Metric Level Notification: false                         
+          Alert Trigger Mode: 3                             
+        Caution Action Delay: 0                             
+         Danger Action Delay: 0                             
+       Danger Action MM Name: APM - ECCA - AMOS             
+          Danger Action Name: Email AMOS SOAP               
+      Management Module Name: APM - ECCA - AMOS             
+             Metric Grouping: Synthetic STATUS AMOS SOAP RightFaxHandler
+      Alert Combine Operator: 1                             
+      Alert Compare Operator: 2                             
+        Caution Target Value: 0                             
+         Danger Target Value: 0                             
+  Caution Min Num Per Period: 1                             
+        Caution Alert Period: 1                             
+   Danger Min Num Per Period: 16                            
+         Danger Alert Period: 16                            
