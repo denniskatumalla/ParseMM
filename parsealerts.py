@@ -1,19 +1,11 @@
-
-# import pandas as pd
-# import numpy as np
-# import xml.etree.cElementTree as et
 from xml.etree import ElementTree
 
 std_output_bool = True
 file_output_bool = True
 csv_file_output_bool = True
+
 outputfile = open("ManagementModule.out","w")
 csvoutputfile = open("ManagementModule.csv","w")
-
-print('\n')
-print("Start - Processing Management Module")
-
-altree = ElementTree.parse('ManagementModule.xml')
 
 def output(mmtitle, mmelement):
     if (mmelement is not None):        
@@ -29,6 +21,14 @@ def output(mmtitle, mmelement):
         outputfile.write(format(mmtitle, '>30') + format(str(mmelementformatted),'<30') + '\n')
     if csv_file_output_bool:
         csvoutputfile.write(str(mmelementformatted) + ',')
+
+def outputcsvendofline():
+        csvoutputfile.write('\n')
+
+print('\n')
+print("Start - Processing Management Module")
+
+altree = ElementTree.parse('ManagementModule.xml')
 
 alerts = altree.findall('./DataGroups/DataGroup/AlertBase/Name')
 
@@ -61,8 +61,9 @@ for al in altree.iter('AlertBase'):
     output('Caution Alert Period: ', al.find('CautionAlertPeriod'))
     output('Danger Min Num Per Period: ', al.find('DangerMinNumPerPeriod'))
     output('Danger Alert Period: ', al.find('DangerAlertPeriod'))
-    csvoutputfile.write('\n')
+    outputcsvendofline
 
 print("End - Processing Management Module")
 
 outputfile.close()
+csvoutputfile.close()
