@@ -16,8 +16,11 @@ print("Start - Processing Management Module")
 altree = ElementTree.parse('ManagementModule.xml')
 
 def output(mmtitle, mmelement):
-    if (mmelement is not None):
-        mmelementformatted = mmelement.text
+    if (mmelement is not None):        
+        if isinstance(mmelement, str):
+            mmelementformatted = mmelement
+        else:
+            mmelementformatted = mmelement.text
     else:
         mmelementformatted = ""
     if std_output_bool:
@@ -28,9 +31,10 @@ def output(mmtitle, mmelement):
         csvoutputfile.write(str(mmelementformatted) + ',')
 
 alerts = altree.findall('./DataGroups/DataGroup/AlertBase/Name')
+
 for al in altree.iter('AlertBase'):
     output('Alert Name: ', al.find('Name'))
-    #output('Is Active:\t', al.attrib.get('IsActive'))APM - Synthetic Monitoring
+    output('Is Active: ', al.attrib['IsActive'])
     output('Alert Description: ', al.find('Description'))
     for alf in al.iter('PeriodInSeconds'):
         output('PeriodInSeconds: ', alf.find('PeriodInSeconds'))
