@@ -3,6 +3,7 @@ from xml.etree import ElementTree
 std_output_bool = True
 file_output_bool = True
 csv_file_output_bool = True
+csv_header_bool = True
 
 outputfile = open("ManagementModule.out","w")
 csvoutputfile = open("ManagementModule.csv","w")
