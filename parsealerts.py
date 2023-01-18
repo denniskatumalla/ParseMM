@@ -1,4 +1,7 @@
 from xml.etree import ElementTree
+import time
+
+tic = time.perf_counter()
 
 std_output_bool = True
 file_output_bool = True
@@ -26,10 +29,6 @@ def processoutput(file_output_line, csv_output_line, csv_header_line, label, met
         csv_header_line = csv_header_line + label + ','
     return file_output_line, csv_output_line, csv_header_line
 
-def outputcsvendofline():
-        csvoutputfile.write('\n')
-
-print('\n')
 print("Start - Processing Management Module")
 
 altree = ElementTree.parse('ManagementModule.xml')
@@ -82,7 +81,8 @@ for al in altree.iter('AlertBase'):
 
     csv_header_bool = False
 
-print("End - Processing Management Module")
+toc = time.perf_counter()
+print(f'End - Processing Management Module - {toc - tic:0.4f} seconds')
 
 outputfile.close()
 csvoutputfile.close()
